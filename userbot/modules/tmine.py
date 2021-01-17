@@ -2,7 +2,7 @@ from userbot.util import admin_cmd
 from telethon import events
 import asyncio
 somto = 331210651
-ceejay = -1001377775174
+cj = -1001377775174
 
 @bot.on(events.NewMessage(pattern="", incoming=True))
 async def handler(event):
