@@ -58,6 +58,7 @@ dnspython
 youtube-dl
 soundcloud-lib
 JustWatch
+bwb
 heroku3
 pyquery
 natsort #instadl
