@@ -2,6 +2,7 @@ import random
 import string
 import requests
 from random import randint 
+from telethon import events
 from userbot.util import admin_cmd, client
 
 @bot.on(admin_cmd(pattern=r"^.enaclk", outgoing=True))
