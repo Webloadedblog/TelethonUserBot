@@ -1,6 +1,6 @@
 from userbot.util import admin_cmd
 from telethon import events
-from userbot import bot<
+from userbot import bot
 from bwb import bwb
 import asyncio
 
