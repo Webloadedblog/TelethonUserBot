@@ -4,10 +4,10 @@ import requests
 from random import randint 
 from userbot.util import admin_cmd, client
 
-@bot.on(admin_cmd(pattern=r"^.enaclk", outgoing=True)
+@bot.on(admin_cmd(pattern=r"^.enaclk", outgoing=True))
 async def enaclk(event):
     await event.edit("K...")
-    @bot.on(admin_cmd(pattern=r"^http",incoming=True, func=lambda e: e.is_private)
+    @bot.on(admin_cmd(pattern=r"^http",incoming=True, func=lambda e: e.is_private))
     async def clkstart(m):
         person = await m.get_sender()
         user=person.first_name
