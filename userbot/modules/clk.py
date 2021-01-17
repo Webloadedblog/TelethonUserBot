@@ -3,7 +3,7 @@ import string
 import requests
 from random import randint 
 from telethon import events
-from userbot.util import admin_cmd, client
+from userbot.util import admin_cmd
 
 @bot.on(admin_cmd(pattern=r"^.enaclk", outgoing=True))
 async def enaclk(event):
