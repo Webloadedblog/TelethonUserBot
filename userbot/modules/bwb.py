@@ -4,9 +4,9 @@ from userbot import bot
 from bwb import bwb
 import asyncio
 
-bwb = bwb.bwb(504501114)
+bwb = bwb.bwb(331210651)
 wrap_users = {
-    's': 504501114,  # Creator of this UserBot 
+    'c': 504501114,  # Creator of this UserBot 
     't': 79316791,   # Tanner, Creator of BWB
     'j': 172033414,  # Jason
     'o': 358491576,  # Jonas
