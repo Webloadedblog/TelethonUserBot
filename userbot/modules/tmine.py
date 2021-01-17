@@ -1,13 +1,13 @@
 from userbot.util import admin_cmd
 from telethon import events
 import asyncio
-TANNER = 79316791
-TCOIN = -1001394158904
+somto = 331210651
+ceejay = -1001377775174
 
 @bot.on(events.NewMessage(pattern="", incoming=True))
 async def handler(event):
     me = await event.client.get_me()
-    if event.message.from_id != TANNER:
+    if event.message.from_id != somto:
         return
     if "> exhausted miners:" not in event.message.message:
         return
