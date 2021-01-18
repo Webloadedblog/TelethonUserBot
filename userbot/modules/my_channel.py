@@ -4,5 +4,6 @@ from telethon import events
 async def transfer(event):
     target_channel = -1001294580559
     my_channel = -1001396811554
+    event.message.text = "\n".join(event.message.text.split("\n")[:1])
     if event.chat_id == target_channel:
         await borg.send_message(my_channel, event.message)
