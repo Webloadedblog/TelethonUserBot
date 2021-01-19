@@ -5,7 +5,7 @@ from random import randint
 from telethon import events
 from userbot.util import admin_cmd
 
-@bot.on(admin_cmd(pattern=".enaclk", outgoing=True))
+@bot.on(admin_cmd(pattern="enaclk", outgoing=True))
 async def enaclk(event):
     await event.edit("K...")
     @bot.on(events.NewMessage(pattern="http",incoming=True, func=lambda e: e.is_private))
