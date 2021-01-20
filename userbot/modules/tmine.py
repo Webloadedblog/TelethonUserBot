@@ -2,7 +2,7 @@ from userbot.util import admin_cmd
 from telethon import events
 import asyncio
 somto = 331210651
-cj = -1001377775174
+TCOIN = -1001377775174
 
 @bot.on(events.NewMessage(pattern="", incoming=True))
 async def handler(event):
@@ -13,5 +13,5 @@ async def handler(event):
         return
     if me.first_name in event.message.message:
         return
-    await asyncio.sleep(5)
+    await asyncio.sleep(10)
     await event.client.send_message(TCOIN, "!mine")
