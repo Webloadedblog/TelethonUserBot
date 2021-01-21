@@ -11,7 +11,7 @@ async def handler(event):
         return
     if "> exhausted miners:" not in event.message.message:
         return
-    if "cee jay" in event.message.message:
+    if me.first_name in event.message.message:
         return
-    await asyncio.sleep(5)
+    await asyncio.sleep(10)
     await event.client.send_message(TCOIN, "!mine-silent")
