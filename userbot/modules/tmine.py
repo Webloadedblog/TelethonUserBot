@@ -14,4 +14,4 @@ async def handler(event):
     if me.first_name in event.message.message:
         return
     await asyncio.sleep(10)
-    await event.client.send_message(TCOIN, "!mine-silent")
+    await event.client.send_message(TCOIN, "!mine")
